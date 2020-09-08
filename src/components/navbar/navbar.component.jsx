@@ -21,9 +21,6 @@ const Navbar = ({ currentUser, hidden }) => {
         <Link className="option" to="/shop">
           Shop
         </Link>
-        <Link className="option" to="/">
-          Contact
-        </Link>
 
         {currentUser ? (
           <div className="option" onClick={() => auth.signOut()}>
