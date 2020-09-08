@@ -12,5 +12,14 @@
   .preview {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .preview {
+    justify-content: center !important;
+    align-items: center;
   }
 }
