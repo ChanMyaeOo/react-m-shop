@@ -42,3 +42,9 @@
     margin-bottom: 30px;
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .checkout-page {
+    width: 90%;
+  }
+}
